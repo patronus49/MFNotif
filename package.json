@@ -1,0 +1,24 @@
+{
+  "name": "mfnotif",
+  "version": "1.0.0",
+  "description": "Notification service for events/notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "Notification",
+    "MarketFront",
+    "NodeJS"
+  ],
+  "author": "Ketan Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "jsonschema": "^1.2.6",
+    "lodash": "^4.17.20"
+  }
+}
